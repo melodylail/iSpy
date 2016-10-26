@@ -14,7 +14,8 @@ for 64 bit:
 
 1) remove the ffmpeg project from the solution
 2) copy the files in /ffmpeg/ffmpeg64/bin into /ffmpeg/bin64
-3) add a reference to the ispy.video.ffmpeg.dll in /ffmpeg/bin64
+3) add a reference to the ispy.video.ffmpeg.dll in /ffmpeg/bin64  --> no need to do, since it is already located in /ffmpeg/bin64 by default
+4) after build ok, you should put all iSpy\FFMPEG\ffmpeg64\bin files to your build output directory(\iSpy\bin\x64\Debug)
 
 
 For building the Setup project [Wix Toolset 3.10+](http://wixtoolset.org/) must be installed. (Make sure you restart Visual Studio after installing)
